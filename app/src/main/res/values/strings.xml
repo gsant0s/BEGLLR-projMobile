@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GreenTips</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="logo">logo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="check">Lembrar-me</string>
+    <string name="cadastro">Não tem conta ?</string>
+    <string name="search">Search</string>
+    <string name="hint_search">Buscar posto de coleta</string>
+    <string name="locais">Locais</string>
+    <string name="videos">Videos</string>
+    <string name="conta">Conta</string>
+    <string name="header_videos">Dicas</string>
+</resources>

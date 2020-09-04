@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#89F696"
+    tools:context=".createaccount.ScreenDecideCad">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha o tipo de conta que você deseja criar."
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#FFF"
+        android:fontFamily="@font/rasa_bold"
+        android:layout_marginTop="200dp" />
+
+    <Button
+        android:id="@+id/btnUsuario"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_decide_border"
+        android:fontFamily="@font/rasa_bold"
+        android:padding="4dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowRadius="2"
+        android:text="Usuário"
+        android:textColor="#4CAF50"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ou"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#FFF"
+        android:fontFamily="@font/rasa_bold"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnPev"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="PEV"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/rasa_bold"
+        android:background="@drawable/button_decide_border"/>
+</LinearLayout>
